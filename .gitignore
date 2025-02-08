@@ -1,0 +1,3 @@
+# Visual Studio関連のファイルを無視
+.vs/
+*.vsidx
