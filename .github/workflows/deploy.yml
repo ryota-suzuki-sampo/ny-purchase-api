@@ -29,5 +29,5 @@ jobs:
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v2
       with:
-        app-name: ny-purchase-dev-01
+        app-name: ${{ secrets.AZURE_WEBAPP_NAME }}
         package: .
